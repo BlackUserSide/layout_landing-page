@@ -1,0 +1,2 @@
+var elementHeader=document.getElementById("hiddenNavbar"),elementButton=document.getElementById("humberBtn"),closeBtn=document.getElementById("closeBtn");elementButton.addEventListener("click",function(){elementHeader.classList.contains("is-closed")&&elementHeader.classList.remove("is-closed"),elementHeader.classList.add("is-active")}),closeBtn.addEventListener("click",function(){elementHeader.classList.remove("is-active"),elementHeader.classList.add("is-closed")});
+//# sourceMappingURL=layout_landing-page.f8ac381a.js.map
